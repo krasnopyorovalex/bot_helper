@@ -12,6 +12,13 @@
   "require": {
     "silex/silex": "~2.0",
     "twig/twig": "^1.33",
-    "doctrine/dbal": "^2.5"
+    "doctrine/dbal": "^2.5",
+    "symfony/console": "^3.2",
+    "doctrine/migrations": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
   }
 }
